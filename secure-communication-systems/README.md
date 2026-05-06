@@ -1,34 +1,36 @@
-Secure Communication Systems
-This section covers real-world security protocols used to protect data in transit across modern networks, including TLS, VPN tunneling, Wi‑Fi encryption, and Kerberos authentication.
+# Secure Communication Systems
 
-Skills Demonstrated
+This section contains hands-on analysis of real-world secure communication technologies including TLS certificates, VPN tunneling, Wi‑Fi security, and Kerberos authentication.
+
+## Skills Demonstrated
 - TLS certificate inspection and validation
-- VPN tunneling analysis
+- VPN encrypted tunnel analysis
 - Wi‑Fi security evaluation (WPA2/WPA3)
-- Kerberos authentication workflow analysis
-- Identification of encryption, authentication, and integrity mechanisms
-- Threat analysis across multiple communication layers
+- Kerberos ticket-based authentication workflow
+- Encryption, authentication, and integrity analysis
+- Threat modeling across multiple communication layers
 
-Topics Covered
-TLS & Certificates
-Examined how HTTPS uses certificates, public keys, and CA trust chains to authenticate servers and establish encrypted sessions.
+## Topics Covered
 
-VPN Tunneling
-Analyzed how VPNs create encrypted tunnels, perform authentication, and protect all device traffic from local network attackers.
+### TLS & Certificates
+Explored how HTTPS uses certificates, public keys, and CA trust chains to authenticate servers and establish encrypted sessions.
 
-Wi‑Fi Security (WPA2/WPA3)
-Reviewed wireless encryption standards, the 4‑way handshake, session key generation, and common wireless attack vectors.
+### VPN Tunneling
+Analyzed how VPNs create encrypted tunnels, authenticate endpoints, and protect all device traffic from local network observers.
 
-Kerberos Authentication
-Explored how Kerberos enables single sign‑on using tickets, session keys, authenticators, and replay protection.
+### Wi‑Fi Security (WPA2/WPA3)
+Reviewed wireless encryption standards, the 4‑way handshake, session key generation, and common wireless attack techniques.
 
-Tools & Concepts Used
+### Kerberos Authentication
+Examined how Kerberos enables single sign-on using TGTs, service tickets, session keys, and replay protection.
+
+## Tools & Concepts Used
 - TLS Certificates
 - Public Key Infrastructure (PKI)
 - VPN Tunneling
-- AES‑CCMP (Wi‑Fi)
+- AES‑CCMP
 - WPA2/WPA3
 - Kerberos Tickets & TGTs
 
-Notes
-This analysis was completed as part of hands-on secure communication training and demonstrates how cryptographic principles are applied in real-world systems across multiple layers of a network.
+## Notes
+This analysis was completed as part of hands-on secure communication systems training and demonstrates how cryptographic principles are applied across multiple layers of modern networks.
